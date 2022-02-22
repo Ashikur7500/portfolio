@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.banner-img{
+    background: rgb(0, 0, 0, 0.6) url(./img/IMG_7797.JPG);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    overflow: hidden;
+}
