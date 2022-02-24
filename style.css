@@ -10,5 +10,47 @@
     background-size: cover;
     background-position: center;
     position:relative;
-    overflow: hidden;
 }
+
+
+
+.resume-section .resume-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #880f5a;
+    position: relative;
+
+}
+
+.resume-section .header-text{ 
+    font-weight: 800;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid red;
+    display: inline-block;
+} 
+
+.resume-section .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 80px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #880f45;
+  }
+
+  .resume-section .resume-title{ 
+      font-weight: 700;
+      color: #e73ca6;
+  }
+
+  .resume-section .resume-item h4{
+        color: #880f45;;
+  }
+   h2{
+    border-bottom: 2px solid red;
+    display: inline-block;
+  }
